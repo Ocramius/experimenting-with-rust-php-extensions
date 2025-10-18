@@ -1,0 +1,13 @@
+[package]
+name = "experimenting-with-rust-php-extensions"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ext-php-rs = "0.14.2"
+
+[profile.release]
+strip = "debuginfo"
