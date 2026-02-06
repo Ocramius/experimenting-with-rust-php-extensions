@@ -164,9 +164,9 @@ checksum = "7c74b8349d32d297c9134b8c88677813a227df8f779daa29bfc29c183fe3dca6"
 
 [[package]]
 name = "convert_case"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "633458d4ef8c78b72454de2d54fd6ab2e60f9e02be22f3c6104cdc8a4e0fceb9"
+checksum = "affbf0190ed2caf063e3def54ff444b449371d55c58e513a95ab98eca50adb49"
 dependencies = [
  "unicode-segmentation",
 ]
@@ -340,9 +340,9 @@ dependencies = [
 
 [[package]]
 name = "ext-php-rs"
-version = "0.15.5"
+version = "0.15.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bae7ff00a57b4138c87e5c14b54a76af1a55c97fc0324a2a9add6274a4aec8c9"
+checksum = "6c6ce0f549b84992322e48039adf0c483276f81993e401523ad12bd310b609ff"
 dependencies = [
  "anyhow",
  "bitflags",
@@ -351,6 +351,7 @@ dependencies = [
  "ext-php-rs-bindgen",
  "ext-php-rs-build",
  "ext-php-rs-derive",
+ "inventory",
  "native-tls",
  "once_cell",
  "parking_lot",
@@ -401,9 +402,9 @@ dependencies = [
 
 [[package]]
 name = "ext-php-rs-derive"
-version = "0.11.7"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "392cae7cdb924b08b91ba28b35e2d72012e6f54fc11a8d4abc0cf37dc6255978"
+checksum = "b1d95ccaa852836477c0401b986e906d3a31810d9963ff7d6fde410d5bbaaa71"
 dependencies = [
  "convert_case",
  "darling",
@@ -535,6 +536,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "879f10e63c20629ecabbb64a8010319738c66a5cd0c29b02d63d272b03751d01"
 dependencies = [
  "generic-array",
+]
+
+[[package]]
+name = "inventory"
+version = "0.3.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc61209c082fbeb19919bee74b176221b27223e27b65d781eb91af24eb1fb46e"
+dependencies = [
+ "rustversion",
 ]
 
 [[package]]
