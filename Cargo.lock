@@ -325,9 +325,9 @@ dependencies = [
 
 [[package]]
 name = "ext-php-rs"
-version = "0.15.10"
+version = "0.15.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "896f178baf2f04a110819ef1c7bdab6bfbeecd7e6eb242f65a6ab0a0632f01d1"
+checksum = "0525834a3e26fdf0a60a8e7c27ec9521a35808eba8e41a15e135c22f670bc937"
 dependencies = [
  "anyhow",
  "bitflags",
@@ -387,9 +387,9 @@ dependencies = [
 
 [[package]]
 name = "ext-php-rs-derive"
-version = "0.11.11"
+version = "0.11.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9cbfc942526ee091e48818a0f654c67d159fb4068539bd2bfe7ce474dca939ff"
+checksum = "f6cb94d5f4c1e9758b6b936ad306dea36a034c125334d9a438fe966a5d596a85"
 dependencies = [
  "convert_case",
  "darling",
